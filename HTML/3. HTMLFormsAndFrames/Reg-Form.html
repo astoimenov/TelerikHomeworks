@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<form>
+	<table border="1px">
+	<tr>
+		<th>Last Name</th>
+		<td colspan="3"><input type="text" name="lname" size="55px" /></td>
+	</tr>
+	<tr>
+		<th>First Name</th>
+		<td colspan="3"><input type="text" name="fname" size="55px" /></td>
+	</tr>
+	<tr>
+		<th>Address</th>
+		<td colspan="3"><textarea name="address" /></textarea></td>
+	</tr>
+	<tr>
+		<th>City</th>
+		<td><input type="text" name="city" /></td>
+		<th>Sate</th>
+		<td><input type="text" name="state" /></td>
+	</tr>
+	<tr>
+		<th>Zip/Postal Code</th>
+		<td colspan="3"><input type="tel" required="true" name="zipcode" size="10px"></td>
+	</tr>
+	<tr>
+		<th>Country</th>
+		<td colspan="3">
+			<select name="country">
+				<option value="Value 1" selected="selected">Bulgaria</option>
+				<option>United States</option>
+				<option>United Kingdom</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<th>Phone (coutry code,<br/> area code, number)</th>
+		<td colspan="3">(+<input type="tel" required="true" size="8px" />)<input type="tel" required="true" size="8px" />-<input type="tel" required="true" /></td>
+	</tr>
+	<tr>
+		<th>E-mail</th>
+		<td colspan="3"><input type="email" required="true" pattern="[^ @]* @[^ @].[^ @]" /></td>
+	</tr>
+	<tr>
+		<th>Birth date</th>
+		<td colspan="3">Month<input type="tel" required="true" size="4px"> Day<input type="tel" required="true" size="4px"> Year (4 digit)<input type="tel" required="true" size="8px"></td>
+	</tr>
+	<tr>
+		<th>Gender</th>
+		<td colspan="3">
+			<select name="gender">
+				<option value="Value 1">Male</option>
+				<option value="Value 1">Female</option>
+		</td>
+	</tr>
+	<tr>
+		<th>Starting date</th>
+		<td colspan="3">
+			<input name="startdate" type="radio" id="first" />
+			<label for="first">September 2012</label>
+			<input name="startdate" type="radio" id="second" />
+			<label for="gf">Octomber 2012</label>
+		</td>
+	</tr>
+	<tr>
+		<th>Comments/Questions</th>
+		<td colspan="3"><textarea name="Comments"></textarea></td>
+	</tr>
+	<tr>
+		<th colspan="4" style="horizontal-align:middle">
+			<input type="submit" value="Submit">
+			<input type="reset" name="clearBtn" value="Clear this form">
+		</th>
+	</tr>
+	</table>
+</form>
+</html>
