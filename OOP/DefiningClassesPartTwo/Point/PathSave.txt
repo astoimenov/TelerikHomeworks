@@ -1,0 +1,12 @@
+PointX = 3
+PointY = 4
+PointZ = 5
+
+PointX = 1
+PointY = 2
+PointZ = 3
+
+PointX = 3
+PointY = 4
+PointZ = 5
+
