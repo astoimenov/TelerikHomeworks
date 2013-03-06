@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JustCodeSettings Version="0.0" Timestamp="5966f188-ebef-4a2c-9b8a-b3173dbb6e99">
+  <IgnoredErrorsAndWarningsSettings xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <IgnoredErrorsAndWarnings>
+      <FilePath>
+        <Path>D:\my documents\visual studio 2012\Projects\UsingClassesAndObjects\NumberOfWorkdays\NumberOfWorkdays.cs</Path>
+        <ProjectFullName>d:\my documents\visual studio 2012\Projects\UsingClassesAndObjects\NumberOfWorkdays\5.NumberOfWorkdays.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>27</Column>
+          <Text>Field &lt;/C&gt;holidays&lt;//C&gt; can be made readonly</Text>
+          <Line>7</Line>
+        </IgnoredElement>
+      </FilePath>
+    </IgnoredErrorsAndWarnings>
+  </IgnoredErrorsAndWarningsSettings>
+</JustCodeSettings>

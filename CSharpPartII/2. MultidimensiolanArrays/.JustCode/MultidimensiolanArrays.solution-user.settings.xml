@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JustCodeSettings Version="0.0" Timestamp="9b822b11-b990-4eeb-979e-203188b07635">
+  <IgnoredErrorsAndWarningsSettings xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <IgnoredErrorsAndWarnings>
+      <FilePath>
+        <Path>D:\my documents\visual studio 2012\Projects\MultidimensiolanArrays\PrintMatrixes\Properties\AssemblyInfo.cs</Path>
+        <ProjectFullName>d:\my documents\visual studio 2012\Projects\MultidimensiolanArrays\PrintMatrixes\1,PrintMatrixes.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>1</Column>
+          <Text>This using directive is not required</Text>
+          <Line>2</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>D:\my documents\visual studio 2012\Projects\MultidimensiolanArrays\MatrixClass\MatrixClass.cs</Path>
+        <ProjectFullName>d:\my documents\visual studio 2012\Projects\MultidimensiolanArrays\MatrixClass\6.MatrixClass.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>11</Column>
+          <Text>Type name does not match file name</Text>
+          <Line>5</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>24</Column>
+          <Text>Field &lt;/C&gt;matrix&lt;//C&gt; can be made readonly</Text>
+          <Line>8</Line>
+        </IgnoredElement>
+      </FilePath>
+    </IgnoredErrorsAndWarnings>
+  </IgnoredErrorsAndWarningsSettings>
+</JustCodeSettings>

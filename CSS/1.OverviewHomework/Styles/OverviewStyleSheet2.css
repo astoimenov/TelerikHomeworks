@@ -1,0 +1,33 @@
+/*CSS Document*/
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+table, th, td {
+	border-collapse: collapse;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-right: 30px;
+	padding-bottom: 5px;
+	margin: 20px;
+	border: 1px solid #D4D4CA;
+	}
+
+th {
+	font-weight: normal;
+	text-align: left;
+	background-color: #33CC00;
+	color: #FFF;
+}
+
+td {
+	border-top: none;
+	border-bottom: none;
+}
+
+.difColor {
+	background-color: #F5F0E6;
+}

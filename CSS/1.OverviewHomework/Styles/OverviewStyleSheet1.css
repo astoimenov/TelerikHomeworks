@@ -1,0 +1,48 @@
+﻿/* CSS Document */
+
+body {
+    background-color:#808080;
+    font-family:Arial;
+}
+
+#ticketID {
+    color:lightgray;
+    font-size:1.5em;
+    font-family:Arial;
+}
+
+.info {
+    font-style:italic;
+    color:white;
+}
+
+#support {
+    font-weight:bold;
+    color:red;
+}
+
+#email, #name, #link {
+    color:#f3e817;
+}
+
+#time, #action {
+    color:lightgray
+}
+
+#status {
+    color:orange;
+    font-weight:bold;
+}
+
+td {
+    padding-top:15px;
+}
+
+#circle {
+    position:relative;
+    top: 13px;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #71b47a;
+}

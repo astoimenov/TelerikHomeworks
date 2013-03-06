@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slices3D", "Slices3D\Slices3D.csproj", "{785BD228-CFAF-4DD7-8764-684A3F640604}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Message", "Message\Message.csproj", "{23877C9F-8EF2-4954-9BE5-71FA6C742C22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicLanguage", "BasicLanguage\BasicLanguage.csproj", "{8AD39997-0DE5-44AC-9FF6-FF33577646B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{785BD228-CFAF-4DD7-8764-684A3F640604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{785BD228-CFAF-4DD7-8764-684A3F640604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{785BD228-CFAF-4DD7-8764-684A3F640604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{785BD228-CFAF-4DD7-8764-684A3F640604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23877C9F-8EF2-4954-9BE5-71FA6C742C22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23877C9F-8EF2-4954-9BE5-71FA6C742C22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23877C9F-8EF2-4954-9BE5-71FA6C742C22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23877C9F-8EF2-4954-9BE5-71FA6C742C22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AD39997-0DE5-44AC-9FF6-FF33577646B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AD39997-0DE5-44AC-9FF6-FF33577646B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AD39997-0DE5-44AC-9FF6-FF33577646B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AD39997-0DE5-44AC-9FF6-FF33577646B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

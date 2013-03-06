@@ -1,0 +1,138 @@
+
+@mixin linear-gradient($from, $to, $repeat:none) {
+    background-image: -webkit-linear-gradient(top, $from 5%, $to);
+    background-image: -moz-linear-gradient(top, $from 5%, $to);
+    background-image: -ms-linear-gradient(top, $from 5%, $to);
+    background-image: -o-linear-gradient(top, $from 5%, $to);
+    background-image: linear-gradient(to bottom, $from 5%, $to);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$from}', endColorstr='#{$to}',GradientType=0 );
+	background-repeat:$repeat;
+}
+
+html, body, header, h1, h2, form, dl, dt, dd, nav, ul, li, a, div, section, article, p, footer {
+	padding: 0;
+	margin: 0;
+}
+
+header, footer, section, article, aside {
+	display: block;
+}
+
+html {
+	height: 100%;
+}
+
+body{
+	$default-bg-color: #9215F2;
+	$default-text-color: #fff;
+	$border-color: #603382;
+	color: $default-text-color;
+	background: fixed;
+	@include linear-gradient(#D593FF, $default-bg-color, no-repeat);
+
+	.span7 {
+		padding: 15px;
+	}
+
+	a {
+		color: $default-text-color;
+		text-decoration: none;
+	}
+
+	.span3-form-horizontal {
+		float: right;
+		position: relative;
+		top: -100px;
+		right: 5%;
+	}
+
+	#label-name, #label-password {
+		border: 1px solid $border-color;
+		border-radius: 8px;
+		background: #B35EF3;
+			}
+
+	.btn {
+	background-color: #B35EF3;
+	border-radius: 8px;
+	color: #fff;
+	font-weight: bold;
+	padding: 5px;
+	}
+
+	nav {
+		margin: 20px;
+		border: 1px solid $border-color;
+		border-radius: 8px;
+		width: 70%;
+		ul {
+			li {
+				display: inline-block;
+				padding: 10px;
+				ul {
+					display: none;
+					background: $default-bg-color;
+					border: 1px solid $border-color;
+					border-radius: 8px;		
+					position: absolute;
+					
+					li {
+						display: block;
+					}	
+				}
+				&:hover {
+					text-decoration: underline;
+					ul{
+						display: block; 
+					}
+				}
+			}
+		}
+
+	}
+
+	.box {		
+		border: 1px solid $border-color;
+		border-radius: 8px;
+		padding: 20px;
+		margin: 20px;
+	}
+
+	.span7{
+		.box{
+			width: 65%;
+			footer {
+				text-align: right;				
+			}
+		}
+	}
+
+	.span3 {
+		float: right;
+		position: relative;
+		top: -630px;
+		.box {
+			padding: 15px;
+			margin: 15px;
+			width: 285px;
+
+			ul {
+				list-style-type: none;
+			}
+
+			li:before {
+				padding-right: 5px;
+				content: url(../images/li-dot.png);
+			}
+
+			p {
+				padding: 5px;
+			}
+		}
+	}
+
+	.global-footer {
+		padding: 30px;
+		text-align: center;
+	}
+}

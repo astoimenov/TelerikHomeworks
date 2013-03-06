@@ -1,0 +1,63 @@
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: serif;
+	background-color: grey;
+	text-decoration: none;
+}
+
+ul {
+	text-decoration: none;
+	list-style-type: none;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 28px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+section a {
+	text-decoration: none;
+	color: #000;
+}
+
+ul:last-child {
+	text-decoration: underline;
+}
+
+header {
+	text-align: center;
+	font-size: 32px;
+	font-weight: bolder;
+	color: #FAFAD2;
+}
+
+section header {
+	text-align: left;
+	font-size: 28px;
+}
+
+footer {
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+section footer {
+	text-align: left;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.current {
+	background-color: lightgrey;
+}

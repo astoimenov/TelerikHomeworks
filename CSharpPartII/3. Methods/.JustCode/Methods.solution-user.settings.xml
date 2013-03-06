@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JustCodeSettings Version="0.0" Timestamp="2e7138b9-a3ac-4013-b792-11c9e4d80161">
+  <IgnoredErrorsAndWarningsSettings xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <IgnoredErrorsAndWarnings>
+      <FilePath>
+        <Path>D:\my documents\visual studio 2012\Projects\Methods\LastDigitInEnglish\LastDigitInEnglish.cs</Path>
+        <ProjectFullName>d:\my documents\visual studio 2012\Projects\Methods\LastDigitInEnglish\3.LastDigitInEnglish.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>25</Column>
+          <Text>Field &lt;/C&gt;digitNames&lt;//C&gt; can be made readonly</Text>
+          <Line>7</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>D:\my documents\visual studio 2012\Projects\Methods\SolveTasks\SolveTasks.cs</Path>
+        <ProjectFullName>d:\my documents\visual studio 2012\Projects\Methods\SolveTasks\12.SolveTasks.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>41</Column>
+          <Text>Unused Parameter &lt;/C&gt;input&lt;//C&gt;</Text>
+          <Line>34</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>D:\my documents\visual studio 2012\Projects\Methods\SolveTasks\SolveTasks.cs</Path>
+        <ProjectFullName>d:\my documents\visual studio 2012\Projects\Methods\SolveTasks\13.SolveTasks.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>41</Column>
+          <Text>Unused Parameter &lt;/C&gt;input&lt;//C&gt;</Text>
+          <Line>34</Line>
+        </IgnoredElement>
+      </FilePath>
+    </IgnoredErrorsAndWarnings>
+  </IgnoredErrorsAndWarningsSettings>
+</JustCodeSettings>

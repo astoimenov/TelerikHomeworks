@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JustCodeSettings Version="0.0" Timestamp="13252f64-b18e-455a-b200-cd6602b52276">
+  <IgnoredErrorsAndWarningsSettings xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <IgnoredErrorsAndWarnings>
+      <FilePath>
+        <Path>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\10.ConvertToUnicode\ConvertToUnicode.cs</Path>
+        <ProjectFullName>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\10.ConvertToUnicode\10.ConvertToUnicode.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>4</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>4</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\4.CountRepeatingSubstring\CountRepeatingSubstring.cs</Path>
+        <ProjectFullName>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\4.CountRepeatingSubstring\4.CountRepeatingSubstring.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>4</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\6.PadRight\PadRight.cs</Path>
+        <ProjectFullName>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\6.PadRight\6.PadRight.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>3</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\5.ToUpperCaseTags\ToUpperCaseTags.cs</Path>
+        <ProjectFullName>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\5.ToUpperCaseTags\5.ToUpperCaseTags.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>4</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\7.Encryption\Encryption.cs</Path>
+        <ProjectFullName>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\7.Encryption\7.Encryption.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>4</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\9.CensorText\CensorText.cs</Path>
+        <ProjectFullName>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\9.CensorText\9.CensorText.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>4</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\8.ExtractSentencesContainingWord\ExtractSentencesContainingWord.cs</Path>
+        <ProjectFullName>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\8.ExtractSentencesContainingWord\8.ExtractSentencesContainingWord.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>4</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\11.PrintNumber\PrintNumber.cs</Path>
+        <ProjectFullName>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\11.PrintNumber\11.PrintNumber.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>3</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\13.ReverseWords\ReverseWords.cs</Path>
+        <ProjectFullName>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\13.ReverseWords\13.ReverseWords.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>5</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\14.Dictionary\Dictionary.cs</Path>
+        <ProjectFullName>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\14.Dictionary\14.Dictionary.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>4</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\15.ReplaceAnchors\ReplaceAnchors.cs</Path>
+        <ProjectFullName>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\15.ReplaceAnchors\15.ReplaceAnchors.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>4</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\16.GetDateOffset\GetDateOffset.cs</Path>
+        <ProjectFullName>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\16.GetDateOffset\16.GetDateOffset.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>3</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\17.CalculateDateAfterTime\CalculateDateAfterTime.cs</Path>
+        <ProjectFullName>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\17.CalculateDateAfterTime\17.CalculateDateAfterTime.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>4</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\18.ExtractEmails\ExtractEmails.cs</Path>
+        <ProjectFullName>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\18.ExtractEmails\18.ExtractEmails.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>4</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\19.ExtractDates\ExtractDates.cs</Path>
+        <ProjectFullName>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\19.ExtractDates\19.ExtractDates.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>5</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\20.ExtractPalindromes\ExtractPalindromes.cs</Path>
+        <ProjectFullName>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\20.ExtractPalindromes\20.ExtractPalindromes.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>4</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\21.CountLetters\CountLetters.cs</Path>
+        <ProjectFullName>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\21.CountLetters\21.CountLetters.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>3</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\23.ReplaceConsecutiveLetters\ReplaceConsecutiveLetters.cs</Path>
+        <ProjectFullName>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\23.ReplaceConsecutiveLetters\23.ReplaceConsecutiveLetters.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>4</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\22.CountWords\CountWords.cs</Path>
+        <ProjectFullName>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\22.CountWords\22.CountWords.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>5</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\24.SortWords\SortWords.cs</Path>
+        <ProjectFullName>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\24.SortWords\24.SortWords.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>5</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\3.CheckBrackets\CheckBrackets.cs</Path>
+        <ProjectFullName>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\3.CheckBrackets\3.CheckBrackets.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>3</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\2.ReverseString\ReverseString.cs</Path>
+        <ProjectFullName>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\2.ReverseString\2.ReverseString.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>3</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\25.ExtractHTML\ExtractHTML.cs</Path>
+        <ProjectFullName>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\25.ExtractHTML\25.ExtractHTML.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>Type name does not match file name</Text>
+          <Line>4</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>4</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\12.ParseURI\ParseURI.cs</Path>
+        <ProjectFullName>D:\My Documents\Visual Studio 2012\Projects\8.StringsAndTextProcessing\12.ParseURI\12.ParseURI.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>4</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>Name does not match the naming convention. Suggested name 'ParseUri'</Text>
+          <Line>4</Line>
+        </IgnoredElement>
+      </FilePath>
+    </IgnoredErrorsAndWarnings>
+  </IgnoredErrorsAndWarningsSettings>
+</JustCodeSettings>

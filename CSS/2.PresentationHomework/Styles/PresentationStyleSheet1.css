@@ -1,0 +1,24 @@
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	color: #0094ff;
+}
+
+p {
+	font-family: consolas;
+}
+
+p:first-letter {
+	font-family: Edwardian Script ITC;
+	font-size: 3em;
+}
+
+p:first-line {
+	font-weight: bold;
+}

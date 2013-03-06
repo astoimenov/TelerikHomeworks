@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JustCodeSettings Version="0.0" Timestamp="b40f8f9f-7352-47e8-a5a4-bc4e8da344ac">
+  <IgnoredErrorsAndWarningsSettings xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <IgnoredErrorsAndWarnings>
+      <FilePath>
+        <Path>C:\users\a.stoimenov\documents\visual studio 2012\Projects\ExamPrep\Slices3D\Slices3D.cs</Path>
+        <ProjectFullName>c:\users\a.stoimenov\documents\visual studio 2012\Projects\ExamPrep\Slices3D\Slices3D.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>3</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>3</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>3</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>3</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>C:\users\a.stoimenov\documents\visual studio 2012\Projects\ExamPrep\Message\Message.cs</Path>
+        <ProjectFullName>c:\users\a.stoimenov\documents\visual studio 2012\Projects\ExamPrep\Message\Message.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>6</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>Type name does not match file name</Text>
+          <Line>35</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>Type name does not match file name</Text>
+          <Line>6</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>6</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>18</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>12</Column>
+          <Text>Field &lt;/C&gt;currentOriginalMessage&lt;//C&gt; can be made readonly</Text>
+          <Line>70</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>35</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>Type name does not match file name</Text>
+          <Line>6</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>Type name does not match file name</Text>
+          <Line>35</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>12</Column>
+          <Text>Field &lt;/C&gt;currentOriginalMessage&lt;//C&gt; can be made readonly</Text>
+          <Line>70</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>6</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>18</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>35</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>Type name does not match file name</Text>
+          <Line>6</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>Type name does not match file name</Text>
+          <Line>35</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>12</Column>
+          <Text>Field &lt;/C&gt;currentOriginalMessage&lt;//C&gt; can be made readonly</Text>
+          <Line>70</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>6</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>18</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>35</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>C:\users\a.stoimenov\documents\visual studio 2012\Projects\ExamPrep\BasicLanguage\BasicLanguage.cs</Path>
+        <ProjectFullName>c:\users\a.stoimenov\documents\visual studio 2012\Projects\ExamPrep\BasicLanguage\BasicLanguage.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>1</Column>
+          <Text>This using directive is not required</Text>
+          <Line>2</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>4</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>4</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>23</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>Type name does not match file name</Text>
+          <Line>23</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>Type name does not match file name</Text>
+          <Line>22</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>22</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>7</Column>
+          <Text>The namespace of this type doesn't match the project default namespace &amp; directory</Text>
+          <Line>4</Line>
+        </IgnoredElement>
+      </FilePath>
+    </IgnoredErrorsAndWarnings>
+  </IgnoredErrorsAndWarningsSettings>
+</JustCodeSettings>
