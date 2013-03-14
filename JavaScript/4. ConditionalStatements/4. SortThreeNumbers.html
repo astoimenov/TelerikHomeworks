@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task4</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputdiv">
+        <div class="input">
+            <label for="firstNumber">Number1: </label>
+            <input type="text" id="firstNumber" />
+        </div>
+        <div class="input">
+            <label for="secondNumber">Number2: </label>
+            <input type="text" id="secondNumber" />
+        </div>
+        <div class="input">
+            <label for="thirdNumber">Number3: </label>
+            <input type="text" id="thirdNumber" />
+        </div>
+        <div id="inputbutton">
+            <button onclick="onButtonClick()">Sort numbers</button>
+        </div>
+    </div>
+    <div id="console">
+    </div>
+    <script src="scripts/js-console.js">	  
+    </script>
+    <script>
+        function onButtonClick() {
+            var first = jsConsole.readFloat("#firstNumber");
+            var second = jsConsole.readFloat("#secondNumber");
+            var third = jsConsole.readFloat("#thirdNumber");
+            var temp;
+            var n = [first, second, third];
+
+            function swap(i, j) {
+                temp = n[i];
+                n[i] = n[j];
+                n[j] = temp;
+            }
+
+            if (n[0] < n[1]) {
+                if(n[1] < n[2]){
+                    swap(0, 2);
+                }
+                else if (n[0] < n[2]) {
+                    swap(0, 1);
+                    swap(1, 2);
+                }
+                else {
+                    swap(0, 1);
+                }
+            }
+            else {
+                if (n[0] < n[2]) {
+                    swap(0, 1);
+                    swap(0, 2);
+                }
+                else {
+                    swap(1, 2);
+                }
+            }
+            jsConsole.writeLine(n);
+        }
+    </script>
+</body>
+</html>

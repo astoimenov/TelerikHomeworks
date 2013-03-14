@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task9</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputdiv">
+        <div class="input">
+            <label for="x">X: </label>
+            <input type="text" id="x" />
+        </div>
+        <div class="input">
+            <label for="y">Y: </label>
+            <input type="text" id="y" />
+        </div>
+        <div id="inputbutton">
+            <button onclick="onButtonClick()">Check point</button>
+        </div>
+    </div>
+    <div id="console">
+    </div>
+    <script src="scripts/js-console.js">	  
+    </script>
+    <script>
+        function onButtonClick() {
+            var X = jsConsole.readFloat("#x");
+            var Y = jsConsole.readFloat("#y");
+            var Xc = 1;
+            var Yc = 1;
+            var radius = 3;
+            var XL = -1;
+            var YL = 1;
+            var width = 6;
+            var height = 3;
+            var XR = XL + width;
+            var YR = YL - height;
+            var InCircle = false;
+            var InRec = false;
+
+            if (((X - Xc) * (X - Xc) + (Y - Yc) * (Y - Yc)) < radius * radius) {
+                InCircle = true;
+            }
+            else {
+                InCircle = false;
+            }
+
+            if ((X > XL && X < XR) && (Y < YL && Y > YR)) {
+                InRec = true;
+            }
+            else {
+                InRec = false;
+            }
+            if (InCircle == true && InRec == false) {
+                jsConsole.writeLine("Point (" + X + "," + Y + ") is within circle K((" + Xc + "," + Yc + ")," + radius + ") and out of rectangle R(top=" + XL + ", left=" + YL + ", width=" + width + ", height={" + height + ").");
+            }
+            else {
+                jsConsole.writeLine("Point (" + X + "," + Y + ") is not within circle K((" + Xc + "," + Yc + ")," + radius + ") and out of rectangle R(top=" + XL + ", left=" + YL + ", width=" + width + ", height={" + height + ") .");
+            }
+        }
+    </script>
+</body>
+</html>

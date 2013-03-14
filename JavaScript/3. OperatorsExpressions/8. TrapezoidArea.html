@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task8S</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputdiv">
+        <div class="input">
+            <label for="a">a: </label>
+            <input type="text" id="a" />
+        </div>
+        <div class="input">
+            <label for="b">b: </label>
+            <input type="text" id="b" />
+        </div>
+        <div class="input">
+            <label for="h">h: </label>
+            <input type="text" id="h" />
+        </div>
+        <div id="inputbutton">
+            <button onclick="onButtonClick()">Calc area</button>
+        </div>
+    </div>
+    <div id="console">
+    </div>
+    <script src="scripts/js-console.js">	  
+    </script>
+    <script>
+        function onButtonClick() {
+            var a = jsConsole.readFloat("#a");
+            var b = jsConsole.readFloat("#b");
+            var h = jsConsole.readFloat("#h");
+            var area = (a + b) * h / 2;
+            jsConsole.writeLine("Area = " + area)
+        }
+    </script>
+</body>
+</html>

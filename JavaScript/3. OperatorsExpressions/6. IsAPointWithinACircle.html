@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task6</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputdiv">
+        <div class="input">
+            <label for="x">X: </label>
+            <input type="text" id="x" />
+        </div>
+        <div class="input">
+            <label for="y">Y: </label>
+            <input type="text" id="y" />
+        </div>
+        <div id="inputbutton">
+            <button onclick="onButtonClick()">Check point</button>
+        </div>
+    </div>
+    <div id="console">
+    </div>
+    <script src="scripts/js-console.js">	  
+    </script>
+    <script>
+        function onButtonClick() {
+            var X = jsConsole.readFloat("#x");
+            var Y = jsConsole.readFloat("#y");
+            var radius = 5;
+            if ((X * X + Y * Y) < radius * radius)
+            {
+                jsConsole.writeLine("Point (" + X + "," + Y + ") is within the circle K(0,5)");
+            }
+            else
+            {
+                jsConsole.writeLine("Point (" + X + "," + Y + ") is outside the circle K(0,5)");
+            }
+        }
+    </script>
+</body>
+</html>

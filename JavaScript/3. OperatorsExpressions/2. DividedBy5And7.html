@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Task2</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="inputdiv">
+		<div class="input">
+			<label for="number">Number: </label>
+			<input type="text" id="number"/>
+		</div>
+		<div id="inputbutton">			
+            <button onclick="onFindBiggerButtonClick()">Check number</button>
+		</div>
+	</div>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>		  
+	<script>
+	    function onFindBiggerButtonClick()
+	    {
+	        var num = jsConsole.readFloat("#number");
+	        if (num % 5 == 0 && num % 7 == 0)
+	        {
+	            jsConsole.writeLine("number: " + num + " is dividible by 5 and 7");
+	        }
+	        else
+	        {
+                jsConsole.writeLine("number: " + num + " is not dividible by 5 and 7");            
+	        }
+	    }
+	</script>			  
+</body>
+</html>

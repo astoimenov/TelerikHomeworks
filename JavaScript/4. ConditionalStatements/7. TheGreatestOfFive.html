@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task3</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputdiv">
+        <div class="input">
+            <label for="number1">Number1: </label>
+            <input type="text" id="number1" />
+        </div>
+        <div class="input">
+            <label for="number2">Number2: </label>
+            <input type="text" id="number2" />
+        </div>
+        <div class="input">
+            <label for="number3">Number3: </label>
+            <input type="text" id="number3" />
+        </div>
+        <div class="input">
+            <label for="number4">Number4: </label>
+            <input type="text" id="number4" />
+        </div>
+        <div class="input">
+            <label for="number5">Number5: </label>
+            <input type="text" id="number5" />
+        </div>
+        <div id="inputbutton">
+            <button onclick="onButtonClick()">Check numbers</button>
+        </div>
+    </div>
+    <div id="console">
+    </div>
+    <script src="scripts/js-console.js">	  
+    </script>
+    <script>
+        function onButtonClick() {
+            var arr = new Array(5);
+            arr[0] = jsConsole.readFloat("#number1");
+            arr[1] = jsConsole.readFloat("#number2");
+            arr[2] = jsConsole.readFloat("#number3");
+            arr[3] = jsConsole.readFloat("#number4");
+            arr[4] = jsConsole.readFloat("#number5");
+            var theBiggest = arr[0];
+            var i;
+
+                for (i = 1; i < arr.length; i++) {
+                    if (theBiggest < arr[i]) {
+                        theBiggest = arr[i];
+                    }
+                }
+                jsConsole.writeLine("The greatest number is: " + theBiggest);
+        }
+    </script>
+</body>
+</html>

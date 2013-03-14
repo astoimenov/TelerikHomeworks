@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task1</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputdiv">
+        <div class="input">
+            <label for="firstNumber">First number: </label>
+            <input type="text" id="firstNumber" />
+        </div>
+        <div class="input">
+            <label for="secondNumber">Second number: </label>
+            <input type="text" id="secondNumber" />
+        </div>
+        <div id="inputbutton">
+            <button onclick="onButtonClick()">Check numbers</button>
+        </div>
+    </div>
+    <div id="console">
+    </div>
+    <script src="scripts/js-console.js">	  
+    </script>
+    <script>
+        function onButtonClick() {
+            var first = jsConsole.readFloat("#firstNumber");
+            var second = jsConsole.readFloat("#secondNumber");
+            var temp;
+
+            if (first > second) {
+                temp = first;
+                first = second;
+                second = temp;
+            }
+
+            jsConsole.writeLine("The bigger number is: " + second);
+        }
+    </script>
+</body>
+</html>

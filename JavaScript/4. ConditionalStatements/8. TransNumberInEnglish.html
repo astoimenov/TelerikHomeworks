@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task3</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputdiv">
+        <div class="input">
+            <label for="number">Number: </label>
+            <input type="text" id="number" />
+        </div>
+        <div id="inputbutton">
+            <button onclick="onButtonClick()">Translate the number</button>
+        </div>
+    </div>
+    <div id="console">
+    </div>
+    <script src="scripts/js-console.js">	  
+    </script>
+    <script>
+        function onButtonClick() {
+            var number = jsConsole.readFloat("#number");
+            var digits = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
+            var special = ["ten", "eleven", "twelve", "thirdtheen", "fourthen", "fiftheen", "sixtheen", "seventheen", "eightheen", "ninetheen"];
+            var dec = ["", "", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"];
+
+            if (number >= 0 && number < 1000) {
+                var digit = number % 10;
+                var tens = parseInt(number / 10) % 10;
+                var hundred = parseInt(number / 100) % 10;
+
+                if (hundred !== 0) {
+                    jsConsole.write(digits[hundred] + " hundred ");
+                    if (tens !== 0 && tens !== 1 && number >= 20) {
+                        jsConsole.write("and " + dec[tens] + " ");
+                        if (digit != 0) {
+                            jsConsole.write(digits[digit] + " ");
+                        }
+                    }
+                    else if (tens === 1) {
+                        jsConsole.write("and " + special[digit]);
+                    }
+                    else {
+                        if (digit !== 0) {
+                            jsConsole.write("and " + digits[digit] + " ");
+                        }
+                    }
+                }
+                else {
+                    if (tens !== 0 && tens !== 1 && number >= 20) {
+                        jsConsole.write(dec[tens] + " ");
+                        if (digit !== 0) {
+                            jsConsole.write(digits[digit] + " ");
+                        }
+
+                    }
+                    else if (tens === 1) {
+                        jsConsole.write(special[digit]);
+                    }
+                    else {
+                        jsConsole.write(digits[digit] + " ");
+                    }
+
+                }
+                jsConsole.writeLine(null);
+            }
+            else {
+                jsConsole.writeLine("Out of range, try again!");
+            }
+        }
+    </script>
+</body>
+</html>

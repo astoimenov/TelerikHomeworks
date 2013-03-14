@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task6</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputdiv">
+        <div class="input">
+            <label for="number">Number: </label>
+            <input type="text" id="number" />
+        </div>
+        <div id="inputbutton">
+            <button onclick="onButtonClick()">Check number</button>
+        </div>
+    </div>
+    <div id="console">
+    </div>
+    <script src="scripts/js-console.js">	  
+    </script>
+    <script>
+        function onButtonClick() {
+            var number = jsConsole.readInteger("#number");
+            var isPrime = true;
+            if (number < 2)
+            {
+                jsConsole.writeLine("Numbers smaller than 2 is not prime numbers.");
+                isPrime = false;
+            }
+            else
+            {
+                for (var i = 2; i < number; i++)
+                {
+                    if (number % i == 0)
+                    {
+                        isPrime = false;
+                    }
+                }
+            }
+            if (isPrime == true)
+            {
+                jsConsole.writeLine("The number " + number + " is prime.");
+            }
+            else
+            {
+                jsConsole.writeLine("The number " + number + " is not prime.");
+            }
+        }
+    </script>
+</body>
+</html>

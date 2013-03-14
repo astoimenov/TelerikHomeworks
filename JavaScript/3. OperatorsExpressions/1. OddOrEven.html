@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Task1</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="inputdiv">
+		<div class="input">
+			<label for="number">Number: </label>
+			<input type="text" id="number"/>
+		</div>
+		<div id="inputbutton">			
+            <button onclick="onButtonClick()">Check number</button>
+		</div>
+	</div>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>		  
+	<script>
+	    function onButtonClick()
+	    {
+	        var num = jsConsole.readFloat("#number");
+	        if (num % 2 == 0)
+	        {
+	            jsConsole.writeLine("number: " + num + " is even");
+	        }
+	        else
+	        {
+	            jsConsole.writeLine("number: " + num + " is odd");
+	        }
+	    }
+	</script>			  
+</body>
+</html>

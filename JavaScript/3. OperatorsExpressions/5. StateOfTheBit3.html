@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Task5</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="inputdiv">
+		<div class="input">
+			<label for="number">Number: </label>
+			<input type="text" id="number"/>
+		</div>
+		<div id="inputbutton">			
+            <button onclick="onButtonClick()">Check number</button>
+		</div>
+	</div>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>		  
+	<script>
+	    function onButtonClick() {
+	        var num = jsConsole.readInteger("#number");
+	        var pos = 3;
+	        var mask = 1 << pos;
+	        var result = num & mask;
+	        var bit = result >> pos;
+	        jsConsole.writeLine("Third bit of number " + num.toString(2) + " is:" + bit);	        
+	    }
+	</script>			  
+</body>
+</html>

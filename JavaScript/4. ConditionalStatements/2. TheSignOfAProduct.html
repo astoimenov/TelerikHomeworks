@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task2</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputdiv">
+        <div class="input">
+            <label for="firstNumber">Number1: </label>
+            <input type="text" id="firstNumber" />
+        </div>
+        <div class="input">
+            <label for="secondNumber">Number2: </label>
+            <input type="text" id="secondNumber" />
+        </div>
+        <div class="input">
+            <label for="thirdNumber">Number3: </label>
+            <input type="text" id="thirdNumber" />
+        </div>
+        <div id="inputbutton">
+            <button onclick="onButtonClick()">Check the sign</button>
+        </div>
+    </div>
+    <div id="console">
+    </div>
+    <script src="scripts/js-console.js">	  
+    </script>
+    <script>
+        function onButtonClick() {
+            var first = jsConsole.readFloat("#firstNumber");
+            var second = jsConsole.readFloat("#secondNumber");
+            var third = jsConsole.readFloat("#thirdNumber");
+            var product = first * second * third;
+
+            if (product >= 0) {
+                jsConsole.writeLine("Positive sign (+)");
+            }
+            else {
+                jsConsole.writeLine("Negative sign (-)");
+            }
+        }
+    </script>
+</body>
+</html>
