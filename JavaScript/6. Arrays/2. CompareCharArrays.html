@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task2</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputdiv">
+        <div class="input">
+            <label for="firstArray">CharArray1: </label>
+            <input type="text" id="firstArray" />
+        </div>
+        <div class="input">
+            <label for="secondArray">CharArray2: </label>
+            <input type="text" id="secondArray" />
+        </div>
+        <div id="inputbutton">
+            <button onclick="onButtonClick()">Compare</button>
+        </div>
+    </div>
+    <div id="console">
+    </div>
+    <script src="scripts/js-console.js">	  
+    </script>
+    <script>
+        function onButtonClick() {
+            var arrFirst = document.getElementById("firstArray").value;
+            var arrSecond = document.getElementById("secondArray").value;
+
+            var firstArrLen = arrFirst.length;
+            var secondArrLen = arrSecond.length;
+            var areEqual = true;
+
+            if (firstArrLen == secondArrLen) {
+                for (var i = 0; i < firstArrLen; i++) {
+                    if (arrFirst[i] != arrSecond[i]) {
+                        areEqual = false;
+                        break;
+                    }
+                }
+                jsConsole.writeLine("The arrays are equal!");
+            }
+            else {
+                areEqual = false;
+                jsConsole.writeLine("The two arrays are different!");
+            }
+        }
+    </script>
+</body>
+</html>

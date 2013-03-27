@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task5</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputdiv">
+        <div class="input">
+            <label for="inputArr">NumArray(separate the nums with space): </label>
+            <input type="text" id="inputArr" />
+        </div>
+        <div id="inputbutton">
+            <button onclick="onButtonClick()">Sort</button>
+        </div>
+    </div>
+    <div id="console">
+    </div>
+    <script src="scripts/js-console.js">	  
+    </script>
+    <script>
+        function onButtonClick() {
+            var input = document.getElementById("inputArr").value;
+            var myArray = input.split(" ");
+
+            for (var i = 0; i < myArray.length - 1; i++) {
+                var smallest = myArray[i];
+                for (var j = i + 1; j < myArray.length; j++) {
+                    if (myArray[i] > myArray[j]) {
+                        smallest = myArray[j];
+                        keepValue = myArray[i];
+                        myArray[i] = myArray[j];
+                        myArray[j] = keepValue;
+                    }
+                }
+            }
+            for (var index = 0; index < myArray.length; index++) {
+                jsConsole.write(myArray[index] + " ");
+            }
+        }
+    </script>
+</body>
+</html>

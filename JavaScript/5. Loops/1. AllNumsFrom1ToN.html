@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Task1</title>
+    <link href="Styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="inputdiv">
+		<div class="input">
+			<label for="number">Number: </label>
+			<input type="text" id="number"/>
+		</div>
+		<div id="inputbutton">			
+            <button onclick="onButtonClick()">Print</button>
+		</div>
+	</div>
+	<div id="console">
+	</div>
+    <script src="Scripts/js-console.js"></script>
+	<script>
+	    function onButtonClick() {
+	        var num = jsConsole.readFloat("#number");
+	        for (var i = 1; i <= num; i++) {
+                jsConsole.write(i + ", ")
+	        }
+	    }
+	</script>			  
+</body>
+</html>

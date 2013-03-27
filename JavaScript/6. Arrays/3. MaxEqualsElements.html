@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task3</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputdiv">
+        <div class="input">
+            <label for="inputArr">NumArray(separate the nums with space): </label>
+            <input type="text" id="inputArr" />
+        </div>
+        <div id="inputbutton">
+            <button onclick="onButtonClick()">Check numbers</button>
+        </div>
+    </div>
+    <div id="console">
+    </div>
+    <script src="scripts/js-console.js">	  
+    </script>
+    <script>
+        function onButtonClick() {
+            var input = document.getElementById("inputArr").value;
+            var myArray = input.split(" ");
+
+            var sequence = 1;
+            var maxSequence = 0;
+            var bestValue = 0;
+            var counter = 0;
+
+            for (var index = 0; index < myArray.length - 1; index++) {
+                if (myArray[index] == myArray[index + 1]) {
+                    sequence++;
+                    if (sequence > maxSequence) {
+                        maxSequence = sequence;
+                        bestValue = myArray[index];
+                    }
+                }
+                else {
+                    sequence = 1;
+                }
+            }
+
+            jsConsole.writeLine("The maximal sequence of equal elements is: ");
+            while (counter < maxSequence) {
+                jsConsole.write(bestValue + " ");
+                counter++;
+            }
+        }
+    </script>
+</body>
+</html>

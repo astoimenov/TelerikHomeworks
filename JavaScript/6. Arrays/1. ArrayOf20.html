@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task1</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputdiv">
+        <div id="inputbutton">
+            <button onclick="onButtonClick()">Print</button>
+        </div>
+    </div>
+    <div id="console">
+    </div>
+    <script src="scripts/js-console.js">	  
+    </script>
+    <script>
+        function onButtonClick() {
+            var arr = new Array();
+            for (var i = 0; i < 20; i++) {
+                arr[i] = i * 5;
+                jsConsole.writeLine(arr[i]);
+            }
+        }
+    </script>
+</body>
+</html>

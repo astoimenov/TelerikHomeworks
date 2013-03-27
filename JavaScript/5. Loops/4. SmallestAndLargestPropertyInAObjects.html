@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Task4</title>
+	<link href="Styles/js-console.css" rel="stylesheet" />
+
+</head>
+<body>
+	<div id="inputdiv">
+		<div id="inputbutton">			
+            <button onclick="onButtonClick()">Find</button>
+		</div>
+	</div>
+	<div id="console">
+	</div>
+	<script src="Scripts/js-console.js">	  
+	</script>		  
+	<script>
+
+	    function onButtonClick() {
+	        findSmallest(window);
+	        findBiggest(window);
+	        findSmallest(navigator);
+	        findBiggest(navigator);
+	        findSmallest(document);
+	        findBiggest(document);
+	    }
+
+	    function findSmallest(object) {
+	        var smallest = 'zzz';
+	        for (var property in object) {
+	            if (String(property) < smallest) {
+	                smallest = String(property);
+	            }
+	        }
+	        jsConsole.writeLine('The smallest lexicographically property in ' + object + ' is "' + smallest + '"');
+	    }
+	    function findBiggest(object) {
+	        var biggest = 'aaa';
+	        for (var property in object) {
+	            if (String(property) > biggest) {
+	                biggest = String(property);
+	            }
+	        }
+	        jsConsole.writeLine('The biggest lexicographically property in ' + object + ' is "' + biggest + '"');
+	    }
+	</script>			  
+</body>
+</html>

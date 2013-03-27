@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Task3</title>
+    <link href="Styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="inputdiv">
+		<div class="input">
+			<label for="number">Numbers(separate them with ", "): </label>
+			<input type="text" id="number"/>
+		</div>
+		<div id="inputbutton">			
+            <button onclick="onButtonClick()">FindMaxAndMin</button>
+		</div>
+	</div>
+	<div id="console">
+	</div>
+    <script src="Scripts/js-console.js"></script>
+	<script>
+	    function onButtonClick() {
+	        var arr = jsConsole.readNumbersArray("#number", ',')
+	        var minNumber = arr[0];
+	        var maxNumber = arr[0];
+	        var i;
+	        for (i = 1; i < arr.length; i++) {
+	            if (arr[i] > maxNumber) {
+	                maxNumber = arr[i];
+	            }
+	            if (arr[i] < minNumber) {
+	                minNumber = arr[i];
+	            }
+	        }
+	        jsConsole.writeLine("Min number is: " + minNumber + "; max number is: " + maxNumber);
+	    }
+	</script>			  
+</body>
+</html>

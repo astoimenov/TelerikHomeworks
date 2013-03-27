@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task4</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputdiv">
+        <div class="input">
+            <label for="inputArr">NumArray(separate the nums with space): </label>
+            <input type="text" id="inputArr" />
+        </div>
+        <div id="inputbutton">
+            <button onclick="onButtonClick()">Check numbers</button>
+        </div>
+    </div>
+    <div id="console">
+    </div>
+    <script src="scripts/js-console.js">	  
+    </script>
+    <script>
+        function onButtonClick() {
+            var input = document.getElementById("inputArr").value;
+            var myArray = input.split(" ");
+
+            var numIndex = 0;
+            var currentLength = 1;
+            var bestLength = 1;
+
+            for (var i = 1; i < myArray.length; i++) {
+                currentLength = myArray[i - 1] < myArray[i] ? currentLength + 1 : 1;
+
+                if (currentLength > bestLength) {
+                    bestLength = currentLength;
+                    numIndex = i - currentLength + 1;
+                }
+            }
+
+            for (var i = 0; i < bestLength; i++) {
+                jsConsole.write(myArray[numIndex + i] + " ");
+            }
+        }
+    </script>
+</body>
+</html>
