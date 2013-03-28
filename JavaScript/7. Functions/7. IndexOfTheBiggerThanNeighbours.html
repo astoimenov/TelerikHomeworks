@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task3</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputdiv">
+        <div class="input">
+            <label for="inputArr">NumArray(separate the nums with space): </label>
+            <input type="text" id="inputArr" />
+        </div>
+        <div id="inputbutton">
+            <button onclick="onButtonClick()">Check</button>
+        </div>
+    </div>
+    <div id="console">
+    </div>
+    <script src="scripts/js-console.js">	  
+    </script>
+    <script>
+        function onButtonClick() {
+            var input = document.getElementById("inputArr").value;
+            var myArray = input.split(" ");
+            var isBigger = false;
+            for (var index = 1; index < myArray.length - 2; index++) {
+                if ((myArray[index] > myArray[index + 1]) && (myArray[index] > myArray[index - 1])) {
+                    isBigger = true;
+                    jsConsole.writeLine("The first number in given array which is bigger than his neighbours is at position " + index + " and this number is " + myArray[index]);
+                    break;
+                }
+            }
+            if (isBigger == false) {
+                jsConsole.writeLine("-1");
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task4</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputdiv">
+        <p>Count the number of the divs in the page</p>
+        <div id="inputbutton">
+            <button onclick="onButtonClick()">Count</button>
+        </div>
+    </div>
+    <div id="console">
+    </div>
+    <script src="scripts/js-console.js">	  
+    </script>
+    <script>
+        function onButtonClick() {
+            var count = document.getElementsByTagName("div").length;
+            jsConsole.writeLine("There are " + count + " divs on the given page");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task5</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputdiv">
+        <div class="input">
+            <label for="inputArr">NumArray(separate the nums with space): </label>
+            <input type="text" id="inputArr" />
+        </div>
+        <div class="input">
+            <label for="input">Number: </label>
+            <input type="text" id="input" />
+        </div>
+        <div id="inputbutton">
+            <button onclick="onButtonClick()">Count</button>
+        </div>
+    </div>
+    <div id="console">
+    </div>
+    <script src="scripts/js-console.js">	  
+    </script>
+    <script>
+        function onButtonClick() {
+            var input = document.getElementById("inputArr").value;
+            var myArray = input.split(" ");
+
+            var num = jsConsole.readInteger("#input");
+
+            if (isNaN(num)) {
+                jsConsole.writeLine("Enter a correct number!")
+            }
+            else {
+                var repeatCount = 0;
+                for (var i = 0; i < myArray.length; i++) {
+                    if (myArray[i] == num) {
+                        repeatCount++;
+                    }
+                }
+                jsConsole.writeLine("The given number " + num + " appears " + repeatCount + " times in the array");
+            }
+        }
+    </script>
+</body>
+</html>

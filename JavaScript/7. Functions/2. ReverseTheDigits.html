@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task2</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputdiv">
+        <div class="input">
+            <label for="input">Number: </label>
+            <input type="text" id="input" />
+        </div>
+        <div id="inputbutton">
+            <button onclick="onButtonClick()">Compare</button>
+        </div>
+    </div>
+    <div id="console">
+    </div>
+    <script src="scripts/js-console.js">	  
+    </script>
+    <script>
+        function onButtonClick() {
+            var input = jsConsole.readInteger("#input");
+            ReverseDigits(input);
+        }
+
+        function ReverseDigits(number) {
+            var output = "";
+            var inputStr = number.toString();
+
+            jsConsole.writeLine("Your number is: " + number);
+
+            for (var i = 0; i < inputStr.length; i++) {
+                output += number % 10;
+                number = Math.floor(number / 10);
+            }
+
+            jsConsole.writeLine("The reversed number is " + output);
+        }
+    </script>
+</body>
+</html>

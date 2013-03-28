@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task3</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputdiv">
+        <p>
+            Task: Write a function that finds all the occurrences of word in a text. The search can
+             case sensitive or case insensitive.
+        </p>
+        <p>
+            The text is:
+            <br />
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Aliquam facilisis aliquet enim, a accumsan odio aliquam adipiscing.
+            Etiam felis augue, ornare vitae bibendum posuere, tempus id quam. 
+            Nam viverra quam a mauris volutpat gravida ullamcorper dolor egestas.
+            Integer non purus in enim sodales blandit. 
+        </p>
+        <p>The word is: lorem</p>
+    </div>
+    <div id="console">
+    </div>
+    <script src="scripts/js-console.js">	  
+    </script>
+    <script>
+        var text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam facilisis aliquet enim, a lorem accumsan odio aliquam adipiscing. Etiam felis augue, ornare vitae bibendum posuere, tempus id quam. Nam viverra quam a mauris volutpat gravida ullamcorper dolor egestas. Integer non purus in enim sodales blandit. ";
+        var wordToSearch = "lorem";
+        var isCaseSensitive = false;
+
+        onButtonClick(text, wordToSearch);
+        onButtonClick(text, wordToSearch, true);
+
+        function onButtonClick(text, wordToSearch, isCaseSensitive) {
+            isCaseSensitive = isCaseSensitive || false;
+            var countSearchedWord = 0;
+
+            if (isCaseSensitive === false) {
+                var strArr = text.split(wordToSearch);
+                for (var str in strArr) {
+                    countSearchedWord++;
+                }
+
+                jsConsole.writeLine("Case-insensitive search: " + countSearchedWord)
+            }
+            else {
+                var index = text.indexOf(wordToSearch);
+                while (index >= 0) {
+                    countSearchedWord++;
+                    index = text.indexOf(wordToSearch, index + 1);
+                }
+
+                jsConsole.writeLine("Case-sensitive search: " + countSearchedWord)
+            }
+        }
+    </script>
+</body>
+</html>
