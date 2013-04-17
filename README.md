@@ -1,7 +1,7 @@
 TelerikHomeworks
 ================
 
-Homeworks for Telerik academy
+This is a public repo of all my homeworks and projects done for Telerik Academy.
 
 ----------------
 
@@ -42,6 +42,17 @@ Object-Oriented Programming:
 7. OOP Workshop Game Development
 8. Exam Preparation
 
+High Quality Code:
+
+1. What Is High Quality Programming Code
+2. Code Formatting
+3. Naming Identifiers
+4. Code Documentation And Comments
+5. Using Variables Data Expressions And Constants
+6. Using Control Structures Conditional Statements And Loops
+7. High Quality Methods
+8. High Quality Classes
+
 ----------------
 
 Web Design and UI Technologies Track:
@@ -63,7 +74,21 @@ CSS:
 5. SASS
 6. LESS
 
-JavaScript:
+JavaScript Part I:
 
-1. Operators and Expressions
-2. Conditional Statements
+1. Introduction To JavaScript Development
+2. Data Type And Variables
+3. Operators Expressions
+4. Conditional Statements
+5. Loops
+6. Arrays
+7. Functions
+8. Using Objects
+9. Strings
+
+JavaScript Part II:
+
+1. DOM Manipulation
+2. Advanced Functions
+3. JavaScript OOP
+4. JavaScript APIs
