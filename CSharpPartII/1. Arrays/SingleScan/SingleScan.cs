@@ -6,31 +6,30 @@ namespace SingleScan
     {
         static void Main()
         {
-            Console.WriteLine("Enter number of elements:");
-            int length = int.Parse(Console.ReadLine());
-            int[] arr = new int[length];
-            for (int i = 0; i < arr.Length; i++)
-            {
-                arr[i] = int.Parse(Console.ReadLine());
-            }
+            int[] array = { 23, 4, -4, -65, 3 };
 
-            int max = arr[0], maxEnd = arr[0];
-            int longSequence = 1, currentSequence = 1;
-            int start = 0, startTemp = 0;
-            for (int i = 1; i < arr.Length; ++i)
+            int max = array[0];
+            int maxEnd = array[0];
+            int longSequence = 1;
+            int currentSequence = 1;
+            int start = 0;
+            int startTemp = 0;
+
+            for (int i = 1; i < array.Length; i++)
             {
-                if (arr[i] + maxEnd > arr[i])
+                if (array[i] + maxEnd > array[i])
                 {
-                    maxEnd = arr[i] + maxEnd;
+                    maxEnd = array[i] + maxEnd;
                     currentSequence++;
                 }
 
                 else
                 {
-                    maxEnd = arr[i];
+                    maxEnd = array[i];
                     startTemp = i;
                     currentSequence = 1;
                 }
+
                 if (maxEnd > max)
                 {
                     max = maxEnd;
@@ -38,9 +37,12 @@ namespace SingleScan
                     start = startTemp;
                 }
             }
-            for (int i = start; i < start + longSequence; ++i)
+
+            Console.WriteLine(max);
+
+            for (int i = start; i < start + longSequence; i++)
             {
-                Console.WriteLine("{0} ", arr[i]);
+                Console.Write(array[i] + " ");
             }
         }
     }

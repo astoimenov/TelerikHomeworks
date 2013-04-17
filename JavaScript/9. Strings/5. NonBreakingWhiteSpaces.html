@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task5</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputdiv">
+        <div class="input">
+            <label for="input">Text: </label>
+            <input type="text" id="input" />
+        </div>
+        <div id="inputbutton">
+            <button onclick="onButtonClick()">Proceed</button>
+        </div>
+    </div>
+    <div id="console">
+    </div>
+    <script src="scripts/js-console.js">	  
+    </script>
+    <script>
+        function onButtonClick() {
+            var sometext = jsConsole.read("#input");
+            jsConsole.writeLine(replaceAllWhiteSpaces(sometext, '&nbsp'));
+            function replaceAllWhiteSpaces(text, newSymbol) {
+                var result = '';
+                for (var i = 0; i < text.length; i++) {
+                    if (text[i] == ' ') {
+                        result += newSymbol;
+                    }
+                    else {
+                        result += text[i];
+                    }
+                }
+                return result;
+            }
+        }
+    </script>
+</body>
+</html>

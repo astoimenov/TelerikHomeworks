@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task8S</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputdiv">
+        <div class="input">
+            <label for="input">HTML Code: </label>
+            <input type="text" id="input" />
+        </div>
+        <div id="inputbutton">
+            <button onclick="onButtonClick()">Replace</button>
+        </div>
+    </div>
+    <div id="console">
+    </div>
+    <script src="scripts/js-console.js">	  
+    </script>
+    <script>
+        function onButtonClick() {
+            var text = jsConsole.read("#input");
+            var index = text.indexOf("<a");
+            while (index > -1) {
+                text = text.replace("<a", "[URL");
+                text = text.replace("</a>", "[/URL]");
+                index = text.indexOf("a", index + 1);
+            }
+            jsConsole.writeLine(text);
+        }
+    </script>
+</body>
+</html>

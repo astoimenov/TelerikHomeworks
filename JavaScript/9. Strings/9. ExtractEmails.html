@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task9</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputdiv">
+        <div class="input">
+            <label for="input">Email: </label>
+            <input type="text" id="input" />
+        </div>
+        <div id="inputbutton">
+            <button onclick="onButtonClick()">Extract</button>
+        </div>
+    </div>
+    <div id="console">
+    </div>
+    <script src="scripts/js-console.js">	  
+    </script>
+    <script>
+        function onButtonClick() {
+            var email = jsConsole.read("#input");
+            var regEx = /[a-z0-9._-]{6,}@\w+\.[a-z.]{2,}/ig;
+            var result;
+            while ((result = regEx.exec(email)) !== null) {
+                jsConsole.writeLine(result[0]);
+            }
+        }
+    </script>
+</body>
+</html>

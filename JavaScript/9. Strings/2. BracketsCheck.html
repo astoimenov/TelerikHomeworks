@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task2</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputdiv">
+        <div class="input">
+            <label for="input">Expression: </label>
+            <input type="text" id="input" />
+        </div>
+        <div id="inputbutton">
+            <button onclick="onButtonClick()">Check</button>
+        </div>
+    </div>
+    <div id="console">
+    </div>
+    <script src="scripts/js-console.js">	  
+    </script>
+    <script>
+        function onButtonClick() {
+            var expr = jsConsole.read("#input");
+            var leftBracketCount = checkBrackets(expr, "(");
+            var rightBracketCount = checkBrackets(expr, ")");
+            if (leftBracketCount === rightBracketCount) {
+                jsConsole.writeLine("The brakets are all right!");
+            }
+            else {
+                jsConsole.writeLine("The brackets are wrong! There are " + leftBracketCount + " left brackets and " + rightBracketCount + " right ones!");
+            }
+        }
+        function checkBrackets(expr, braket) {
+            var count = 0;
+            for (var i = 0; i < expr.length; i++) {
+                if (expr[i] == braket) {
+                    count++;
+                }
+            }
+            return count;
+        }
+    </script>
+</body>
+</html>

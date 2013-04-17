@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task1</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputdiv">
+        <div class="input">
+            <label for="input">String: </label>
+            <input type="text" id="input" />
+        </div>
+        <div id="inputbutton">
+            <button onclick="onButtonClick()">Reverse</button>
+        </div>
+    </div>
+    <div id="console">
+    </div>
+    <script src="scripts/js-console.js">	  
+    </script>
+    <script>
+        function onButtonClick() {
+            var str = jsConsole.read("#input");
+            var stringBuilder = buildStringBuilder();
+            for (var i = str.length; i >= 0; i--) {
+                stringBuilder.append(str[i]);
+            }
+            jsConsole.writeLine(stringBuilder);
+
+        }
+        function buildStringBuilder() {
+            return {
+                strs: [],
+                len: 0,
+                append: function (str) {
+                    this.strs[this.len++] = str;
+                    return this;
+                },
+                toString: function () {
+                    return this.strs.join("");
+                }
+            };
+        }
+    </script>
+</body>
+</html>

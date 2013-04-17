@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task6</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputdiv">
+        <div class="input">
+            <label for="input">URL: </label>
+            <input type="text" id="input" />
+        </div>
+        <div id="inputbutton">
+            <button onclick="onButtonClick()">Parse</button>
+        </div>
+    </div>
+    <div id="console">
+    </div>
+    <script src="scripts/js-console.js">	  
+    </script>
+    <script>
+        function onButtonClick() {
+            var url = jsConsole.read("#input");
+            var protocol = url.substring(0, url.indexOf(":"));
+            var server = url.substring(url.indexOf(":") + 3, url.indexOf("/", url.indexOf(":") + 3));
+            var resource = url.substr(url.indexOf("/", url.indexOf(":") + 3) + 1)
+            var URLJSON = { "Protocol": protocol, "Server": server, "Resource": resource };
+            jsConsole.writeLine("Protocol: " + URLJSON.Protocol);
+            jsConsole.writeLine("Server: " + URLJSON.Server);
+            jsConsole.writeLine("Resource: " + URLJSON.Resource);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+.js-console {
+    margin: 0;
+}
+
+p {
+    font-family: Consolas;
+    font-size: 18px;
+    color: white;
+}
+
+body .js-console {
+    margin: 0;
+    padding: 5px 10px;
+    background-color: black;
+    width: 800px;
+    height: 500px;
+    font-family: Consolas;
+    font-size: 18px;
+    color: white;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+    body .js-console > p {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: block;
+    }
+
+        body .js-console > p > span {
+            margin: 0;
+            padding: 0;
+        }
+
+        body .js-console > p > br {
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+
+body #inputdiv {
+    background-color: black;
+    width: 780px;
+    padding-left: 20px;
+}
+
+    body #inputdiv > .input > label {
+        font-family: Consolas;
+        color: white;
+        width: 140px;
+        display: inline-block;
+    }
+
+    body #inputdiv > #inputbutton {
+        margin-left: 150px;
+    }

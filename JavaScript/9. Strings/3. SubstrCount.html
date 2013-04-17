@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task3</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputdiv">
+        <div class="input">
+            <label for="string">String: </label>
+            <input type="text" id="string" />
+        </div>
+        <div class="input">
+            <label for="substr">Substring: </label>
+            <input type="text" id="substr" />
+        </div>
+        <div id="inputbutton">
+            <button onclick="onButtonClick()">Count</button>
+        </div>
+    </div>
+    <div id="console">
+    </div>
+    <script src="scripts/js-console.js">	  
+    </script>
+    <script>
+        function onButtonClick() {
+            var str = jsConsole.read("#string");
+            var substr = jsConsole.read("#substr");
+            var result = countSubstr(str, substr);
+            jsConsole.writeLine(result + " appearances on the substring " + "'" + substr + "'!");
+        }
+        function countSubstr(text, sub) {
+            text = text.toLowerCase();
+            sub = sub.toLowerCase();
+            var indexOfSub = text.indexOf(sub);
+            var count = 0;
+            while (indexOfSub > -1) {
+                count++;
+                indexOfSub = text.indexOf(sub, indexOfSub + 1);
+            }
+            return count;
+        }
+    </script>
+</body>
+</html>
