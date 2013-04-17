@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Generate DIVs</title>
+</head>
+<body>
+    <input id="input" type="text" placeholder="Number of divs" />
+    <input type="button" value="Generate" onclick="onClickGenerateDivs()" />
+    <div id="wrapper">
+
+        <script>
+            function onClickGenerateDivs() {
+                var value = document.getElementById("input").value;
+                var contentDiv = document.getElementById("wrapper");
+
+                var borderWidth = [
+					"thin",
+					"medium",
+					"thick",
+					"solid",
+					"length",
+					"inherit;"
+                ];
+
+                var colors = [
+                    "black",
+                    "magenta",
+                    "blue",
+                    "purple",
+                    "grey",
+                    "red",
+                    "yellow",
+                    "orange",
+                    "brown"
+                ]
+
+
+                for (var i = 0; i < value; i++) {
+                    var div = document.createElement("div");
+                    div.className = "colored";
+
+                    div.style.width = generateRandomNumber(20, 100) + "px";
+                    div.style.height = generateRandomNumber(20, 100) + "px";
+                    div.style.border = generateRandomNumber(1, 20) + "px " + borderWidth[generateRandomNumber(0, 5)] + colors[generateRandomNumber(0, 8)];
+                    div.style.borderRadius = generateRandomNumber(1, 25) + "px";
+                    div.style.backgroundColor = colors[generateRandomNumber(0, 8)];
+                    div.style.position = "absolute";
+                    div.style.left = generateRandomNumber(20, 500) + "px";
+                    div.style.top = generateRandomNumber(20, 500) + "px";
+                    div.style.color = colors[generateRandomNumber(0, 8)];
+
+                    div.innerHTML += "<strong>DIV</strong>"
+                    contentDiv.appendChild(div);
+                };
+            }
+
+            function generateRandomNumber(from, to) {
+                return Math.floor(Math.random() * to + from);
+            }
+        </script>
+    </div>
+</body>
+</html>
